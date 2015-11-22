@@ -1,4 +1,5 @@
-;downloads an image from the web as file.png using win32
+;Common Lisp win32
+;downloads an image from the web as 'file.png' using win32
 
 (ql:quickload :cffi)
 (cffi:load-foreign-library "urlmon.dll")
